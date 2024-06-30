@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif; /* Adjust the font to match the example */
+  background-color: #E5E5E5; /* Light grey background */
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around; /* This will space out the nav items evenly */
+  background-color: #000080; /* Deep blue background similar to XP blue */
+  padding: 10px 0; /* Vertical padding */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 5px 20px;
+}
+
+nav a:hover {
+  background-color: #191970; /* Darker blue on hover */
+  border-radius: 5px; /* Optional: rounded corners on hover */
+}
+
+/* Adjusting text size for better readability */
+.window-body p {
+  font-size: 20px; /* Adjust size as needed */
+  line-height: 1.5; /* Improves readability */
+  color: #333; /* Darker text for better contrast */
+}
+
+/* Styling for the professional headshot */
+.window-body img {
+  width: 250px; /* Resize image to a more suitable size */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Optional: adds rounded corners */
+  margin: 10px 0; /* Adds vertical margin for spacing */
+}
+
+/* Ensure images do not exceed the size of their containers */
+.window-body {
+  overflow: hidden; /* Prevents image overflow */
+}
+
+.window-body a.button {
+  display: inline-block;  /* Make sure it's block level but inline */
+  padding: 10px 20px;  /* Adjust padding to make the button larger */
+  margin-top: 10px;  /* Add some space above the button */
+  background-color: #1a73e8;  /* A pleasant blue background */
+  color: white;  /* White text for readability */
+  text-decoration: none;  /* Remove underline */
+  font-size: 16px;  /* Larger font for better visibility */
+  border-radius: 5px;  /* Rounded corners for a modern look */
+  border: none;  /* No border */
+  cursor: pointer;  /* Cursor indicates it's clickable */
+  transition: background-color 0.3s ease;  /* Smooth transition for hover effect */
+}
+
+.window-body a.button:hover {
+  background-color: #154682;  /* Slightly darker blue on hover */
+}
+
+.window-body p, .window-body li {
+  font-size: 22px; /* Adjust the font size as needed for better readability */
+}
+
+.window-body h4, .window-body h5 {
+  color: #000080; /* Deep blue, matches XP theme title bars */
+  margin-bottom: 5px;
+}
+
+.window-body ul {
+  padding-left: 20px; /* Proper indentation for lists */
+}
+
+.window-body h5 {
+  font-size: 22px;  /* Slightly smaller than main headings but larger than default */
+  font-weight: bold; /* Making it bold to stand out more */
+}
